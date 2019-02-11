@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <% include partials/headDashboard %>
+    <script>
+      var dataServer = <%- JSON.stringify(data) %>
+    </script>
+    <body>
+
+      <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <span class="navbar-text mr-sm-3 text-white">
+            Ingeniería Civil en Informática | estudiante:
+          </span>
+          <form class="form-inline">
+            <input class="form-control mr-sm-3" type="search" placeholder="ID del estudiante" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-1" type="submit">Buscar</button>
+          </form>
+
+          <ul class="navbar-nav mr-auto"></ul>
+
+          <span class="navbar-text mr-3 text-white">
+            Ultima actualización de datos: 12/01/2019
+          </span>
+
+          <i class="material-icons text-primary mr-3">info</i>
+
+          <a class="navbar-brand" href="#">Salir</a>
+        </div>
+      </nav>-->
+      <div id="APP"></div>
+      <script type="text/javascript" src="/js/react/bundle.js"></script>
+    </body>
+</html>

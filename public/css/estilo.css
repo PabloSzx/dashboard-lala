@@ -1,0 +1,550 @@
+.unselectable{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#img1{
+	float: right;
+	border-radius: 2em;
+	overflow: auto;
+}
+#despSimbolBotones{
+	float:right;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 1em;
+	padding: 0.5em;
+	margin-bottom: 20px;
+}
+#botones{
+	height:50px;
+	width: 1100px;
+	background:transparent;
+	/*margin-left: 350px;of*/
+	margin-left: 50px;
+}
+.course{
+	display: grid;
+	grid-template-columns: 65% 20% 15%;
+	border: 1px solid #d3d3d3;
+	width: 100px;
+	height: 56px;
+	margin-left: 1px;
+	font-size: 9px;
+	border-radius: 1em;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.box{
+
+}
+.a{
+	grid-column: 1 / span 2;
+	border-top-left-radius: 0.9em;
+	font-size: 80%;
+}
+.b{
+	grid-column: 3;
+	grid-row: 1/ span 2;
+	border-bottom-right-radius: 0.9em;
+	border-top-right-radius: 0.9em;
+	border-left: 1px solid #d3d3d3;
+}
+.rango1{
+	background-color: #d6604d;
+}
+.rango2{
+	background-color: #f48873;
+}
+.rango3{
+	background-color: #a7dc78;
+}
+.rango4{
+	background-color: #66b43e;
+}
+.rango1bt{
+	background-color: #d6604d;
+	border: 1px solid #d6604d;
+}
+.rango2bt{
+	background-color: #f48873;
+	border: 1px solid #f48873;
+}
+.rango3bt{
+	background-color: #a7dc78;
+	border: 1px solid #a7dc78;
+}
+.rango4bt{
+	background-color: #66b43e;
+	border: 1px solid #66b43e;
+}
+.anulado{
+	background-color: #d3d3d3;
+}
+.anuladobt{
+	background-color: #d3d3d3;
+	border: 1px solid #d3d3d3;
+}
+.c{
+	grid-column: 1;
+	grid-row: 2;
+	border-bottom-left-radius: 0.9em;
+	font-size: 60%;
+	font-weight: bold;
+}
+.d{
+	grid-column: 2;
+	grid-row: 2;
+}
+.boton{
+	width: auto;
+	height: 40;
+	margin-right: 5.5px;
+	font-size: 10px;
+	border-radius: 2em;
+	border: black solid 1px;
+	cursor: pointer;
+}
+.botonSelec{
+	width: auto;
+	height: 28px;
+	margin-right: 5px;
+	font-size: 10px;
+	border-radius: 2em;
+	border: 5px solid #FFFF00;
+}
+.botonSelecPerCurs{
+	width: auto;
+	height: 28px;
+	margin-right: 5px;
+	font-size: 10px;
+	border-radius: 2em;
+	border: 4px solid yellow;
+}
+.botonSemAnulado{
+	width: auto;
+	height: 18px;
+	margin-right: 5px;
+	font-size: 10px;
+	border-radius: 2em;
+	border: black 1px ;
+	cursor: pointer;
+	background: grey;
+	color:blue;
+}
+
+
+.btnrepe{
+	width:20px;
+	height:20px;
+	border-radius:1em;
+	border:solid red 2px;
+	text-align: center;
+	cursor:pointer;
+	float: right;
+	position: relative;
+	top:-5px;
+	right:-2px;
+}
+.btnAprob{
+	width: 18px ;
+	color:black;
+	height:18px;
+	border-radius:1em;
+	text-align: center;
+	cursor:pointer;
+	margin-right: 5px;
+	float: right;
+	position: relative;
+	top: 65%;
+	right:-8px;
+	font-weight: bold;
+}
+.btnReprob{
+	width:18px;
+	height:18px;
+	color:black;
+	border-radius:1em;
+	text-align: center;
+	cursor:pointer;
+	margin-right: 5px;
+	float:right;
+	top: 65%;
+	right:-8px;
+	position:relative;
+	font-weight: bold;
+}
+.btnRepet{
+	width: 12px;
+	height: 12px;
+	top: 0px;
+	right: 0px;
+}
+.btnCredit{
+	width:22px;
+	height:22px;
+	color:green;
+	border-radius:1em;
+	font-size:12px;
+	text-align: center;
+	cursor:pointer;
+	margin-left: 35px;
+	border: black 1px solid;
+}
+.btnreq{
+	width:22px;
+	height:22px;
+	color:blue;
+	border-radius:1em;
+	border: solid 2px blue;
+	text-align: center;
+	cursor:pointer;
+	float:right;
+	margin-right: 5px;
+	float: right;
+	position: relative;
+	top:-5px;
+	right:-6px;
+}
+
+.btnAnula{
+	width: 18px ;
+	color:black;
+	height:18px;
+	border-radius:1em;
+	text-align: center;
+	cursor:pointer;
+	margin-right: 5px;
+	float: right;
+	position: relative;
+	top: 65%;
+	right:-8px;
+	font-weight: bold;
+}
+
+
+
+/*SECCIONES*/
+
+
+#años{
+	width: 1217px;
+	height: 25px;
+	background: black;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius:1em;
+	color: white;
+	font-size: 14px;
+}
+#pestudios{
+	display:inline-table;
+	margin-left: 3px;
+}
+
+.semestre{
+	height: auto;
+	width: 100px;
+	background:white;
+	border-radius: 1em;
+	margin-left: 3px;
+	margin-right: 3px;
+	display: inline-table;
+}
+.ciclo{
+	background: black;
+	width: 10px;
+	height: 10px;
+	max-height: 434px;
+	font-size: 9px;
+	color: white;
+	margin-top: 10px;
+	margin-right: 6px;
+	border-radius: 1em;
+	margin-bottom: 6px;
+	white-space: nowrap;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+    text-align:center;
+    vertical-align: middle;
+	display: table-cell;
+}
+#SimbolBotones{
+	width: 116px;
+	color:blue;
+	font-size: 10px;
+	height: auto;
+	float: right;
+	background: white;
+	display: inline-table;
+	margin-right: 15px;
+    margin-left: 1230px;
+    margin-top: 10px;
+    position: absolute;
+}
+#SimbolBotones .btnrepe{
+	width:20px;
+	height:20px;
+	color:red;
+	border-radius:1em;
+	border:solid red 2px;
+	cursor:pointer;
+	background: transparent;
+	left: 2px;
+	text-align: center;
+	float:left;
+	position: relative;
+}
+#SimbolBotones .btnAprob{
+	width: 20px;
+	height:20px;
+	color:white;
+	border-radius:1em;
+	border:black 1px solid;
+	cursor: pointer;
+	background:green;
+	left:4px;
+	text-align: center;
+	float:left;
+	position:relative;
+}
+#SimbolBotones .btnReprob{
+	width:20px;
+	height:20px;
+	color:white;
+	border-radius:1em;
+	border:black 1px solid;
+	cursor: pointer;
+	background: red;
+	left: 4px;
+	text-align: center;
+	float:left;
+	position: relative;
+}
+#btnCredit2{
+	width:22px;
+	height:22px;
+	color:green;
+	border-radius:1em;
+	border: black 1px solid;
+	cursor:pointer;
+	left: 1px;
+	text-align: center;
+	float:left;
+	position: relative;
+}
+
+#SimbolBotones .btnreq{
+	width:22px;
+	height:22px;
+	color:blue;
+	border-radius:1em;
+	border: solid 2px blue;
+	cursor:pointer;
+	left:1px;
+	text-align: center;
+	float:left;
+	position: relative;
+}
+
+#SimbolBotones .botonSemAnulado{
+	width: 48px;
+	height: 18px;
+	margin-right: 5px;
+	border-radius: 2em;
+	border: black 1px ;
+	cursor: pointer;
+	text-align: center;
+	background: grey;
+	color:blue;
+}
+
+
+#SimbolBotones .btnAnula{
+	width:35px;
+	height:25px;
+	color:blue;
+	border-radius:1em;
+	border:solid grey 2px;
+	text-align: center;
+	cursor:pointer;
+	left: -2px;
+	float:left;
+	position: relative;
+	font-size: 8.5px;
+}
+
+/*
+.course{
+	background: #F5A9A9;
+	width: 100px;
+	height: 56px;
+	margin-left: 1px;
+	font-size: 9px;
+	color: white;
+	padding: .5em;
+	border-radius: 1em;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+*/
+.cursoSeleccionado{
+	display: grid;
+	grid-template-columns: 65% 20% 15%;
+	border: 5px solid #FFFF00;
+    background: transparent;
+	width: 100px ;
+	height:70px;
+	margin-left: 2.2px;
+	font-size: 9px;
+	color:white;
+	border-radius: 1em;
+	padding: .5em;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.DesempCurso{
+	border:5px solid yellow;
+    background: transparent;
+	width: 100px ;
+	height: auto;
+	margin-left: 2.2px;
+	font-size: 9px;
+	color:white;
+	border-radius: 1em;
+	padding: .5em;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.courseReq{
+	display: grid;
+	grid-template-columns: 65% 20% 15%;
+	border: 2px solid blue;
+    background: transparent;
+	width: 100px ;
+	height: 70px;/*56px*/
+	margin-left: 2.2px;
+	font-size: 9px;
+	color:white;
+	border-radius: 1em;
+	padding: .5em;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.separador{
+	background: grey;
+	width: 100px;
+	height: 20px;
+	border-color: #FFFF00;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	margin-left: 1px;
+	font-size: 8px;
+	color: white;
+}
+#pga{
+	width:1200px;
+	height: 120px;
+	background: transparent;
+	margin-top: 10px;
+}
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+}
+.axis path {
+    fill: none;
+    stroke:black;
+    stroke-width: 1;
+}
+#pga .axis path {
+    fill: none;
+    stroke:steelblue;
+    stroke-width: 1;
+}
+.bar{
+	border:1px pink solid;
+}
+.axis--y path {
+    display:none;
+}
+.tooltip_templates {
+	display: none;
+}
+.tooltipPSP {
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    width: 25px;
+    height: 20px;
+    padding: 2px;
+    font: 10px sans-serif;
+    color:#FFFF00;
+    background: steelblue;
+    border: 0px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+.tooltipPGA {
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    width: 25px;
+    height: 20px;
+    padding: 2px;
+    font: 10px sans-serif;
+    color:#FFFF00;
+    background: red;
+    border: 0px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+#SimbolAreas{
+	width: 100%;
+	height: 25px;
+	display: inline-flex;
+	margin-top: 15px;
+}
+#especialidad{
+	width: 30px;
+	height: 20px;
+	/*background:#0174DF;*/
+	background:#0174DF;
+	margin-left: 30px;
+	margin-right: 5px;
+	border-radius: .2em;
+}
+#general{
+	width:30px;
+	height: 20px;
+	margin-left: 40px;
+	border-radius: 1em;
+	/*background:#FE2E2E;*/
+	background:red;
+	margin-right: 5px;
+	border-radius: .2em;
+}
+#vinculante{
+	width: 30px;
+	height: 20px;
+	/*background:#FE642E;*/
+	background:#DF3A01;
+	margin-left: 30px;
+	margin-right: 5px;
+	border-radius: .2em;
+}
+#optativa{
+	width: 30px;
+	height: 20px;
+	/*background:#81F781;*/
+	background:#2EFE2E;
+	margin-left: 30px;
+	margin-right: 5px;
+	border-radius: .2em;
+}

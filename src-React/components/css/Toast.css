@@ -1,0 +1,14 @@
+.toastStyle {
+  position: fixed;
+  top: 10%;
+  right: 3%;
+  z-index:1;
+}
+
+.toastError{
+  background: #F7D6D9;
+}
+
+.toastSuccess{
+  background: #D3ECD9;
+}

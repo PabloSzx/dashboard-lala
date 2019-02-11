@@ -1,0 +1,21 @@
+body{
+    font-size: 1rem;
+    background: #eae8e8 !important;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#main-login .login{
+    background: white;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.p-message{
+  text-align: center;
+  padding-top: 12em;
+  color: darkred;
+  font-size: 1.1em;
+}

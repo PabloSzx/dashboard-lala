@@ -1,0 +1,628 @@
+[{
+    "id": "223",
+    "name": "Ingeniería Civil Electrónica",
+    "desc": "infoxxxx",
+    "plan": "2864",
+    "year": 2015,
+    "tags": [],
+    "terms": [
+        {
+            "position": 1,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "BAIN017",
+                    "name": "Álgebra para Ingeniería",
+                    "desc": "LABORATORIO DE FÍSICA A",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": [""],
+                    "credits": 2
+                },
+                {
+                    "code": "BAIN012",
+                    "name": "Geometría para Ingeniería",
+                    "desc": "Geometría para Ingeniería",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 5
+                },
+                {
+                    "code": "BAIN019",
+                    "name": "Química para Ingeniería",
+                    "desc": "Química para Ingeniería",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 2
+                },
+                {
+                    "code": "BAIN009",
+                    "name": "Comunicación Idioma Español",
+                    "desc": "Comunicación Idioma Español",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO015",
+                    "name": "Taller de Ingeniería Electrónica: Ingeniería Básica",
+                    "desc": "Taller de Ingeniería Electrónica: Ingeniería Básica",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 3
+                },
+                {
+                    "code": "BAIN019",
+                    "name": "Optativo de Formación General I",
+                    "desc": "Optativo de Formación General I",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 2
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "BAIN036",
+                    "name": "Álgebra Lineal para Ingeniería",
+                    "desc": "Álgebra Lineal para Ingeniería",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Álgebra para Ingeniería"],
+                    "credits": 7
+                },
+		{
+                    "code": "BAIN037",
+                    "name": "Cálculo en una Variable",
+                    "desc": "Cálculo en una Variable",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Álgebra para Ingeniería"],
+                    "credits": 6
+                },
+		{
+                    "code": "BAIN043",
+                    "name": "Física: Mecánica",
+                    "desc": "Física: Mecánica",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Cálculo I para Ingeniería","Física I para Ingeniería"],
+                    "credits": 3
+                },
+		{
+                    "code": "BAIN039",
+                    "name": "Comunicación Idioma Inglés",
+                    "desc": "Comunicación Idioma Inglés",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": null,
+                    "credits": 5
+                },
+		{
+                    "code": "BAIN043",
+                    "name": "Educación Física y Salud",
+                    "desc": "Educación Física y Salud",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": null,
+                    "credits": 6
+                },
+		{
+                    "code": "INFO023",
+                    "name": "Programación",
+                    "desc": "Programación",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Introducción a la Programación"],
+                    "credits": 2
+                }
+            ]
+        },
+        {
+            "position": 3,
+            "name": null,
+            "tags": [],
+            "courses": [
+ 		{
+                    "code": "BAIN041",
+                    "name": "Ecuaciones Diferenciales para Ingeniería",
+                    "desc": "Ecuaciones Diferenciales para Ingeniería",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Cálculo I para Ingeniería"],
+                    "credits": 6
+                },
+		{
+                    "code": "BAIN042",
+                    "name": "Cálculo en Varias Variables",
+                    "desc": "Cálculo en Varias Variables",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Cálculo I para Ingeniería"],
+                    "credits": 2
+                },
+		{
+                    "code": "BAIN054",
+                    "name": "Física: Ondas y Electromagnetismo",
+                    "desc": "Física: Ondas y Electromagnetismo",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Cálculo II para Ingeniería","Ecuaciones Diferenciales para Ingeniería"],
+                    "credits": 7
+                },
+		{
+                    "code": "BAIN054",
+                    "name": "Circuitos Eléctricos en Corriente Continua",
+                    "desc": "Circuitos Eléctricos en Corriente Continua",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Cálculo II para Ingeniería","Ecuaciones Diferenciales para Ingeniería"],
+                    "credits": 7
+                },
+		{
+                    "code": "INFO035",
+                    "name": "Taller de Ingeniería Electrónica: Eficiencia Energética",
+                    "desc": "Taller de Ingeniería Electrónica: Eficiencia Energética",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Programación","Taller de Ingeniería II"],
+                    "credits": 7
+                },
+		{
+                    "code": "INFO033",
+                    "name": "Optativo de Formación General II",
+                    "desc": "Optativo de Formación General II",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": ["Programación"],
+                    "credits": 4
+                }
+	    ]
+        },
+        {
+            "position": 4,
+            "name": null,
+            "tags": [],
+            "courses": [
+		{
+                    "code": "BAIN053",
+                    "name": "Métodos Numéricos para Ingeniería",
+                    "desc": "Métodos Numéricos para Ingeniería",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Ecuaciones Diferenciales para Ingeniería"],
+                    "credits": 3
+                },
+		{
+                    "code": "INFO053",
+                    "name": "Física: Fluidos y Termodinámica",
+                    "desc": "Física: Fluidos y Termodinámica",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Taller de Ingeniería III"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO053",
+                    "name": "Circuitos Eléctricos en Corriente Alterna",
+                    "desc": "Circuitos Eléctricos en Corriente Alterna",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Taller de Ingeniería III"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO053",
+                    "name": "Tratamiento Matemático de Señales",
+                    "desc": "Tratamiento Matemático de Señales",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Taller de Ingeniería III"],
+                    "credits": 4
+                },
+		{
+                    "code": "BAIN052",
+                    "name": "Estadísticas y Probabilidades para Ingeniería",
+                    "desc": "Estadísticas y Probabilidades para Ingeniería",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Álgebra Lineal para Ingeniería"],
+                    "credits": 6
+                },
+		{
+                    "code": "INFO045",
+                    "name": "Taller de Diseño en Ingeniería Electrónica: Proyecto Electrónico",
+                    "desc": "Taller de Diseño en Ingeniería Electrónica: Proyecto Electrónico",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Cálculo II para Ingeniería","Ecuaciones Diferenciales para Ingeniería","Taller de Ingeniería III"],
+                    "credits": 6
+                }
+	   ]
+        },
+        {
+            "position": 5,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO184",
+                    "name": "Sistemas Electrónicos: Polarización y Estabilidad",
+                    "desc": "Sistemas Electrónicos: Polarización y Estabilidad",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Cálculo I para Ingeniería","Física I para Ingeniería","Química para Ingeniería"],
+                    "credits": 2
+                },
+		{
+                    "code": "INFO164",
+                    "name": "Modelado y Análisis de Sistemas Dinámicos",
+                    "desc": "Modelado y Análisis de Sistemas Dinámicos",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Estructuras de Datos y Algoritmos"],
+                    "credits": 3
+                },
+		{
+                    "code": "INFO175",
+                    "name": "Ondas, Electrones y Sólidos",
+                    "desc": "Ondas, Electrones y Sólidos",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Taller de Ingeniería III","Estructuras de Datos y Algoritmos"],
+                    "credits": 7
+                },
+		{
+                    "code": "INFO172",
+                    "name": "Sistemas Lógicos Binarios",
+                    "desc": "Sistemas Lógicos Binarios",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Álgebra Lineal para Ingeniería"],
+                    "credits": 4
+                },
+		{
+                    "code": "ADMI100",
+                    "name": "Diseño de Circuitos Electrónicos",
+                    "desc": "Diseño de Circuitos Electrónicos",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Comunicación: Idioma Español","Taller de Ingeniería III"],
+                    "credits": 6
+                }
+            ]
+        },
+	{
+            "position": 6,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO163",
+                    "name": "Sistemas Electrónicos: Radio Frecuencia",
+                    "desc": "Sistemas Electrónicos: Radio Frecuencia",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Estructuras de Datos y Algoritmos"],
+                    "credits": 5
+                },
+		{
+                    "code": "INFO165",
+                    "name": "Sistemas en Tiempo Discreto",
+                    "desc": "Sistemas en Tiempo Discreto",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Teoría de Autómatas"],
+                    "credits": 3
+                },
+		{
+                    "code": "INFO173",
+                    "name": "Sistemas de Control Realimentados",
+                    "desc": "Sistemas de Control Realimentados",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Cálculo II para Ingeniería","Estadísticas y Probabilidades para Ingeniería","Investigación Operativa I"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO265",
+                    "name": "Materiales y Dispositivos de la Electrónica",
+                    "desc": "Materiales y Dispositivos de la Electrónica",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Estructuras de Datos y Algoritmos","Taller de Ingeniería III"],
+                    "credits": 5
+                },
+		{
+                    "code": "INFO261",
+                    "name": "Diseño de Sistemas Electrónicos",
+                    "desc": "Diseño de Sistemas Electrónicos",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Teoría de Autómatas"],
+                    "credits": 7
+                }
+            ]
+        },
+	{
+            "position": 7,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO185",
+                    "name": "Sensores y Acondicionamiento de Señal",
+                    "desc": "Sensores y Acondicionamiento de Señal",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Arquitectura de Computadores","Cálculo II para Ingeniería","Física III para Ingeniería"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO182",
+                    "name": "Sistemas de Modulación",
+                    "desc": "Sistemas de Modulación",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Programación Concurrente"],
+                    "credits": 5
+                },
+		{
+                    "code": "INFO263",
+                    "name": "Campos en Sistemas Electrónicos",
+                    "desc": "Campos en Sistemas Electrónicos",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Administración de Empresas","Taller de Construcción de Software"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO189",
+                    "name": "Sistemas Lógicos Programables",
+                    "desc": "Sistemas Lógicos Programables",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Análisis de Sistemas Lineales","Física II para Igeniería","Métodos Numéricos para Ingeniería","Taller"],
+                    "credits": 6
+                },
+		{
+                    "code": "INFO270",
+                    "name": "Diseño de Sistemas Electrónicos Digitales",
+                    "desc": "Diseño de Sistemas Electrónicos Digitales",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Teoría de Autómatas"],
+                    "credits": 7
+                },
+		{
+                    "code": "IECO102",
+                    "name": "Optativo de Especialización I",
+                    "desc": "Optativo de Especialización I",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": ["Cálculo II para Ingeniería","Taller de Ingeniería III"],
+                    "credits": 7
+                }
+            ]
+        },
+	{
+            "position": 8,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO272",
+                    "name": "Redes de Comunicación Digital",
+                    "desc": "Redes de Comunicación Digital",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Economía General","Investigación Operativa II"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO281",
+                    "name": "Medios de Transmisión Electromagnéticos",
+                    "desc": "Medios de Transmisión Electromagnéticos",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Comunicaciones","Sistema Operativo"],
+                    "credits": 6
+                },
+		{
+                    "code": "INFO271",
+                    "name": "Software para Ingeniería Electrónica",
+                    "desc": "Software para Ingeniería Electrónica",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Administración de Empresas","Economía General","Ingeniería de Sistemas"],
+                    "credits": 3
+                },
+		{
+                    "code": "INFO284",
+                    "name": "Economía General",
+                    "desc": "Economía General",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Análisis de Sistemas Lineales","Física III para Ingeniería","Taller de Construcción de Software"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO264",
+                    "name": "Diseño de Sistemas Digitales",
+                    "desc": "Diseño de Sistemas Digitales",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Bases de Datos","Fundamentos de Ingeniería de Software","Taller de Ingeniería III"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO266",
+                    "name": "Optativo de Especialización II",
+                    "desc": "Optativo de Especialización II",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": ["Fundamentos de Ingeniería de Software"],
+                    "credits": 5
+                }
+            ]
+        },
+	{
+            "position": 9,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO275",
+                    "name": "Sistemas Electrónicos Industriales",
+                    "desc": "Sistemas Electrónicos Industriales",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Administración de Empresas","Ingeniería de Sistemas","Ingeniería Económica"],
+                    "credits": 6
+                },
+		{
+                    "code": "INFO252",
+                    "name": "Administración y Gestión de Empresas",
+                    "desc": "Administración y Gestión de Empresas",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Ingeniería Económica","Sistemas de Información","Taller de Ingeniería de Software"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO263",
+                    "name": "Campos en Sistemas Electrónicos",
+                    "desc": "Campos en Sistemas Electrónicos",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Administración de Empresas","Taller de Construcción de Software"],
+                    "credits": 4
+                },
+		{
+                    "code": "INFO268",
+                    "name": "Gestión de Calidad y Medio Ambiente",
+                    "desc": "Gestión de Calidad y Medio Ambiente",
+                    "area": "general",
+                    "tags": [],
+                    "requisites": ["Taller de Ingeniería de Software"],
+                    "credits": 6
+                },
+		{
+                    "code": "INFO251",
+                    "name": "Proyecto Profesional: Fase Diseño",
+                    "desc": "Proyecto Profesional: Fase Diseño",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Ingeniería Económica","Redes","Taller de Ingeniería de Software"],
+                    "credits": 5
+                },
+		{
+                    "code": "INFO273",
+                    "name": "Gira de Estudios",
+                    "desc": "Gira de Estudios",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Investigación Operativa II","Redes","Sistema Operativo"],
+                    "credits": 6
+                },
+		{
+                    "code": "f4f4",
+                    "name": "Optativo de Profundización I",
+                    "desc": "Optativo de Profundización I",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": null,
+                    "credits": 5
+                }
+            ]
+        },
+	{
+            "position": 10,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO274",
+                    "name": "Sistemas de Control no Lineal",
+                    "desc": "Sistemas de Control no Lineal",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Investigación Operativa I"],
+                    "credits": 5
+                },
+		{
+                    "code": "INFO267",
+                    "name": "Proyecto Profesional: Fase Evaluación y Gestión",
+                    "desc": "Proyecto Profesional: Fase Evaluación y Gestión",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Taller de Construcción de Software"],
+                    "credits": 4
+                },
+		{
+                    "code": "EICI247",
+                    "name": "Emprendimiento e Innovacióon",
+                    "desc": "Emprendimiento e Innovacióon",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": ["Ingeniería Económica","Redes","Taller de Ingeniería de Software"],
+                    "credits": 5
+                },
+		{
+                    "code": "INFO276",
+                    "name": "Optativo de Profundización II",
+                    "desc": "Optativo de Profundización II",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": ["Administración de Empresas","Ingeniería de Sistemas","Ingeniería Económica"],
+                    "credits": 6
+                }
+            ]
+        },
+	{
+            "position": 11,
+            "name": null,
+            "tags": [],
+            "courses": [
+                {
+                    "code": "EICI298",
+                    "name": "Trabajo de Titulación",
+                    "desc": "Trabajo de Titulación",
+                    "area": "especialidad",
+                    "tags": [],
+                    "requisites": ["Arquitectura de Sistemas","Sistemas de Gestión Tácticos","Taller de Software-Proyecto de Integración de Tic"],
+                    "credits": 5
+                },
+		{
+                    "code": "",
+                    "name": "Práctica Profesional",
+                    "desc": "Práctica Profesional",
+                    "area": "vinculante",
+                    "tags": [],
+                    "requisites": null,
+                    "credits": 5
+                },
+		{
+                    "code": "INFO053",
+                    "name": "Optativo de Profundización III",
+                    "desc": "Optativo de Profundización III",
+                    "area": "optativa",
+                    "tags": [],
+                    "requisites": ["Taller de Ingeniería III"],
+                    "credits": 4
+                }
+            ]
+        }
+    ]
+}
+]
