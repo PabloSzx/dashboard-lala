@@ -2,7 +2,7 @@ import { omit, isEmpty } from "lodash";
 import { GET_USER } from "../types";
 
 export default (
-  state = { program: "programita", programaId: "idsita" },
+  state = { program: "programita", programaId: 17008 },
   { type, payload }
 ) => {
   const auth = omit(payload, "error");

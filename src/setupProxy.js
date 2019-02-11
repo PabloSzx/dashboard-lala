@@ -8,13 +8,13 @@ module.exports = function(app) {
   );
   app.use(
     proxy("/programs/**", {
-      target: "http://localhost:4000/",
+      target: "http://localhost:4000/api/v1/",
     })
   );
 
   app.use(
     proxy("/students/**", {
-      target: "http://localhost:4000/",
+      target: "http://localhost:4000/api/v1/",
     })
   );
 };
