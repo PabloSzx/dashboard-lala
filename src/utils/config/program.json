@@ -1,0 +1,850 @@
+{
+    "lastDataUpdate": "2019-12-01T05:00:00.000Z",
+    "id": "17008",
+    "name": "INGENIERÍA CIVIL EN INFORMÁTICA",
+    "desc": "",
+    "plan": "2010",
+    "year": 2010,
+    "tags": [],
+    "terms": [
+        {
+            "position": 1,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "DYRE060-90",
+                    "name": "EDUCACION FISICA Y SALUD",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 3
+                },
+                {
+                    "code": "BAIN009-07",
+                    "name": "COMUNICACION: IDIOMA ESPAÑOL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 4
+                },
+                {
+                    "code": "BAIN019-07",
+                    "name": "QUIMICA PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO013-07",
+                    "name": "INTRODUCCION A LA PROGRAMACION",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO015-08",
+                    "name": "TALLER DE INGENIERIA I",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 4
+                },
+                {
+                    "code": "BAIN012-07",
+                    "name": "GEOMETRIA PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 6
+                },
+                {
+                    "code": "BAIN017-07",
+                    "name": "ALGEBRA PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 6
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "BAIN039-07",
+                    "name": "COMUNICACION: IDIOMA INGLES",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 4
+                },
+                {
+                    "code": "BAIN038-07",
+                    "name": "FISICA I PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN012-07",
+                        "BAIN017-07"
+                    ],
+                    "credits": 8
+                },
+                {
+                    "code": "INFO025-08",
+                    "name": "TALLER DE INGENIERIA II",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN012-07",
+                        "BAIN017-07",
+                        "INFO015-08"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "BAIN036-07",
+                    "name": "ALGEBRA LINEAL PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN017-07"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "BAIN037-07",
+                    "name": "CALCULO I PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN017-07"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO023-08",
+                    "name": "PROGRAMACION",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO013-07"
+                    ],
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "position": 3,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO043-07",
+                    "name": "ESTRUCTURAS DISCRETAS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN036-07",
+                        "INFO013-07"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "BAIN041-07",
+                    "name": "ECUACIONES DIFERENCIALES PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN037-07"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "BAIN042-07",
+                    "name": "CALCULO II PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN037-07"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "BAIN043-07",
+                    "name": "FISICA II PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN037-07",
+                        "BAIN038-07"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO033-07",
+                    "name": "PROGRAMACION ORIENTADA A OBJETOS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO023-08"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO035-08",
+                    "name": "TALLER DE INGENIERIA III",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO023-08",
+                        "INFO025-08"
+                    ],
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "position": 4,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "ELECT01",
+                    "name": "OPTATIVO 1",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 0
+                },
+                {
+                    "code": "BAIN052-07",
+                    "name": "ESTADISTICA Y PROBABILIDADES PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN036-07"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "BAIN053-07",
+                    "name": "METODOS NUMERICOS PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN041-07"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "BAIN054-07",
+                    "name": "FISICA III PARA INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN041-07",
+                        "BAIN042-07"
+                    ],
+                    "credits": 8
+                },
+                {
+                    "code": "INFO045-08",
+                    "name": "TALLER",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN041-07",
+                        "BAIN042-07",
+                        "INFO035-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO053-07",
+                    "name": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO035-08",
+                        "INFO043-07"
+                    ],
+                    "credits": 6
+                }
+            ]
+        },
+        {
+            "position": 5,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "ADMI100-90",
+                    "name": "ADMINISTRACION DE EMPRESAS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN009-07",
+                        "INFO035-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO184-08",
+                    "name": "ARQUITECTURA DE COMPUTADORES",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN019-07",
+                        "BAIN037-07",
+                        "BAIN038-07"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO172-00",
+                    "name": "INVESTIGACION OPERATIVA I",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN036-07"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO175-08",
+                    "name": "TALLER DE CONSTRUCCION DE SOFTWARE",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO035-08",
+                        "INFO053-07"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO164-00",
+                    "name": "TEORIA DE AUTOMATAS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO053-07"
+                    ],
+                    "credits": 6
+                }
+            ]
+        },
+        {
+            "position": 6,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO183-00",
+                    "name": "ANALISIS DE SISTEMAS LINEALES",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN041-07",
+                        "INFO184-08"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO173-00",
+                    "name": "INVESTIGACION OPERATIVA II",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN042-07",
+                        "BAIN052-07",
+                        "INFO172-00"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO265-08",
+                    "name": "COMPUTACION GRAFICA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO035-08",
+                        "INFO053-07"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO163-08",
+                    "name": "PROGRAMACION CONCURRENTE",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO053-07"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO165-00",
+                    "name": "COMPILADORES",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO164-00"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO261-08",
+                    "name": "BASES DE DATOS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO164-00"
+                    ],
+                    "credits": 6
+                }
+            ]
+        },
+        {
+            "position": 7,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO263-08",
+                    "name": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "ADMI100-90",
+                        "INFO175-08"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO185-97",
+                    "name": "COMUNICACIONES",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN042-07",
+                        "BAIN054-07",
+                        "INFO184-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "IECO102-05",
+                    "name": "ECONOMIA GENERAL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN042-07",
+                        "INFO035-08"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO189-08",
+                    "name": "SOFTWARE DE INGENIERIA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN043-07",
+                        "BAIN053-07",
+                        "INFO045-08",
+                        "INFO183-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO182-00",
+                    "name": "SISTEMA OPERATIVO",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO163-08"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO270-00",
+                    "name": "INGENIERIA DE SISTEMAS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO164-00"
+                    ],
+                    "credits": 4
+                }
+            ]
+        },
+        {
+            "position": 8,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO271-08",
+                    "name": "SISTEMAS DE INFORMACION",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "ADMI100-90",
+                        "IECO102-05",
+                        "INFO270-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO284-08",
+                    "name": "TALLER DE INTEGRACION DE TIC",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN054-07",
+                        "INFO175-08",
+                        "INFO183-00"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO272-00",
+                    "name": "INGENIERIA ECONOMICA",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "IECO102-05",
+                        "INFO173-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO264-00",
+                    "name": "TALLER INGENIERIA DE SOFTWARE",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO035-08",
+                        "INFO261-08",
+                        "INFO263-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO281-08",
+                    "name": "REDES",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO182-00",
+                        "INFO185-97"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO266-08",
+                    "name": "INTERFAZ HUMANO - COMPUTADOR",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO263-08"
+                    ],
+                    "credits": 6
+                }
+            ]
+        },
+        {
+            "position": 9,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "ELECT20",
+                    "name": "OPTATIVO PROFESIONAL 1",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 0
+                },
+                {
+                    "code": "INFO275-08",
+                    "name": "SISTEMAS DE GESTION ESTRATEGICOS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "ADMI100-90",
+                        "INFO270-00",
+                        "INFO272-00"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "CIDI108-02",
+                    "name": "INGLES FUNCIONAL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "BAIN039-07"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO273-00",
+                    "name": "EVALUACION DE DESEMPEÑO",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO173-00",
+                        "INFO182-00",
+                        "INFO281-08"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "INFO268-00",
+                    "name": "TALLER DE BASE DE DATOS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO264-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO252-97",
+                    "name": "PROYECTO I",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO264-00",
+                        "INFO271-08",
+                        "INFO272-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO251-08",
+                    "name": "SEMINARIO DE ETICA PROFESIONAL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO264-00",
+                        "INFO272-00",
+                        "INFO281-08"
+                    ],
+                    "credits": 2
+                },
+                {
+                    "code": "EICI297-90",
+                    "name": "PRACTICA PROFESIONAL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "ADMI100-90",
+                        "BAIN009-07",
+                        "BAIN012-07",
+                        "BAIN017-07",
+                        "BAIN019-07",
+                        "BAIN036-07",
+                        "BAIN037-07",
+                        "BAIN038-07",
+                        "BAIN039-07",
+                        "BAIN041-07",
+                        "BAIN042-07",
+                        "BAIN043-07",
+                        "BAIN052-07",
+                        "BAIN053-07",
+                        "BAIN054-07",
+                        "CIDI100-90",
+                        "DYRE060-90",
+                        "ELECT01",
+                        "IECO102-05",
+                        "INFO013-07",
+                        "INFO015-08",
+                        "INFO023-08",
+                        "INFO025-08",
+                        "INFO033-07",
+                        "INFO035-08",
+                        "INFO043-07",
+                        "INFO045-08",
+                        "INFO053-07",
+                        "INFO163-08",
+                        "INFO164-00",
+                        "INFO165-00",
+                        "INFO172-00",
+                        "INFO173-00",
+                        "INFO175-08",
+                        "INFO182-00",
+                        "INFO183-00",
+                        "INFO184-08",
+                        "INFO185-97",
+                        "INFO189-08",
+                        "INFO261-08",
+                        "INFO263-08",
+                        "INFO264-00INFO265-08",
+                        "INFO266-08",
+                        "INFO270-00",
+                        "INFO271-08",
+                        "INFO272-00",
+                        "INFO281-08",
+                        "INFO284-08"
+                    ],
+                    "credits": 8
+                }
+            ]
+        },
+        {
+            "position": 10,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "INFO276-08",
+                    "name": "SISTEMAS DE GESTION TACTICOS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "ADMI100-90",
+                        "INFO270-00",
+                        "INFO272-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO274-00",
+                    "name": "SIMULACION",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO173-00"
+                    ],
+                    "credits": 4
+                },
+                {
+                    "code": "INFO267-00",
+                    "name": "INTELIGENCIA ARTIFICIAL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO175-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "EICI245-08",
+                    "name": "TALLER DE SOFTWARE-  PROYECTO INTEGRACIÓN DE TIC",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO189-08",
+                        "INFO264-00",
+                        "INFO266-08",
+                        "INFO281-08",
+                        "INFO284-08"
+                    ],
+                    "credits": 5
+                },
+                {
+                    "code": "EICI246-08",
+                    "name": "ARQUITECTURA DE SISTEMAS",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO264-00",
+                        "INFO271-08",
+                        "INFO275-08",
+                        "INFO281-08",
+                        "INFO284-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "EICI247-08",
+                    "name": "REALIDAD TECNOLOGICA NACIONAL",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "INFO264-00",
+                        "INFO272-00",
+                        "INFO281-08"
+                    ],
+                    "credits": 2
+                }
+            ]
+        },
+        {
+            "position": 11,
+            "name": "",
+            "tags": [],
+            "courses": [
+                {
+                    "code": "ELECT21",
+                    "name": "OPTATIVO PROFESIONAL 2",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 0
+                },
+                {
+                    "code": "ELECT22",
+                    "name": "OPTATIVO PROFESIONAL 3",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [],
+                    "credits": 0
+                },
+                {
+                    "code": "EICI255-08",
+                    "name": "ADMINISTRACION DE TIC",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "EICI245-08",
+                        "EICI246-08",
+                        "INFO276-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "EICI298-09",
+                    "name": "PROYECTO DE TITULO",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "EICI245-08",
+                        "EICI246-08",
+                        "INFO276-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "EICI261-08",
+                    "name": "ESTRATEGIA Y SI",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "EICI246-08",
+                        "INFO276-08"
+                    ],
+                    "credits": 6
+                },
+                {
+                    "code": "INFO253-08",
+                    "name": "ANTEPROYECTO DE TITULO",
+                    "area": "",
+                    "tags": [],
+                    "requisites": [
+                        "EICI297-90",
+                        "INFO252-97"
+                    ],
+                    "credits": 4
+                }
+            ]
+        }
+    ]
+}

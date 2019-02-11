@@ -1,0 +1,19 @@
+{
+  "height" : 180,
+  "spacingBetweenTermsPoints": 90,
+  "paddingWidth" : 20,
+  "paddingHeight" : 40,
+  "marginTop":30,
+  "marginLeft":20,
+  "notasRange" : [0,7],
+  "terms" : 11,
+  "fontSize" : 15,
+  "paddingAxes" : 30,
+  "strokeWidth": 2,
+  "PGA_color": "red",
+  "PSP_color": "steelblue",
+  "radius": 5,
+  "axis_color": "steelblue",
+  "axis_width":  2,
+  "autoResize":true
+}

@@ -1,0 +1,1047 @@
+{
+    "id": "00918df7-5843-c53e-eec9-1595af6fdcd9",
+    "program": "Ingeniería Civil Electrónica",
+    "cohortYear": 2015,
+    "plan": "2864",
+    "previousPlans": [],
+    "terms": [
+        {
+            "year": 2015,
+            "semester": "1S",
+            "termAvg": 2,
+            "accAvg": 4,
+            "coursesTaken": [
+                {
+                    "code": "INFO013",
+                    "name": "Taller de Ingeniería Electrónica: Ingeniería Básica",
+                    "grade": 5.9,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "INFO013",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 7
+                            },
+                            {
+                                "label": "label2",
+                                "value": 3
+                            },
+                            {
+                                "label": "label3",
+                                "value": 3
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 6
+                            },
+                            {
+                                "label": "label6",
+                                "value": 4
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 2,
+                            "max": 6
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "368914",
+                        "year": 2015,
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 7
+                            },
+                            {
+                                "label": "label2",
+                                "value": 3
+                            },
+                            {
+                                "label": "label3",
+                                "value": 3
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 6
+                            },
+                            {
+                                "label": "label6",
+                                "value": 4
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 2,
+                            "max": 6
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN017",
+                    "name": "Álgebra para Ingeniería",
+                    "grade": 4.1,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "BAIN017",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "368914",
+                        "year": 2015,
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN009",
+                    "name": "Comunicación Idioma Español",
+                    "grade": 6.1,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "BAIN009",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "368914",
+                        "year": 2015,
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "INFO015",
+                    "name": "Optativo de Formación General I",
+                    "grade": 6.4,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "INFO015",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "368914",
+                        "year": 2015,
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "INFO015",
+                    "name": "Química para Ingeniería",
+                    "grade": 6.4,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "INFO015",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "368914",
+                        "year": 2015,
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN012",
+                    "name": "Geometría para Ingeniería",
+                    "grade": 4.0,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "BAIN012",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "368914",
+                        "year": 2015,
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 4
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                }
+            ]
+        },
+        {
+            "year": 2015,
+            "semester": "2S",
+            "termAvg": 2,
+            "accAvg": 2,
+            "coursesTaken": [
+              {
+                  "code": "INFO023",
+                  "name": "Educación Física y Salud",
+                  "grade": 0,
+                  "registration": null,
+                  "state": "passed",
+                  "group": {
+                      "course_code": "INFO023",
+                      "distribution": [
+			    {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 6
+                            },
+                            {
+                                "label": "label3",
+                                "value": 7
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 3
+                            },
+                            {
+                                "label": "label6",
+                                "value": 2
+                            }
+                      ],
+                      "dist_range": {
+                          "max": 3,
+                          "min": 2
+                      },
+                      "student_count": 2,
+                      "fail_rate": 23,
+                      "drop_rate": null,
+                      "count_by_delay": null
+                  },
+                  "cohort": {
+                      "course_id": "368914",
+                      "year": 2015,
+                      "distribution": [
+                          {
+                              "label": "label1",
+                              "value": 2
+                          },
+                          {
+                              "label": "label2",
+                              "value": 3
+                          },
+                          {
+                              "label": "label3",
+                              "value": 3
+                          },
+                          {
+                              "label": "label3",
+                              "value": 3
+                          },
+                          {
+                              "label": "label3",
+                              "value": 7
+                          }
+                      ],
+                      "dist_range": {
+                          "min": 2,
+                          "max": 3
+                      },
+                      "student_count": 3,
+                      "fail_rate": 18,
+                      "drop_rate": 20,
+                      "count_by_delay": null
+                  }
+              },
+                {
+                    "code": "BAIN036",
+                    "name": "Álgebra Lineal para Ingeniería",
+                    "grade": 4.0,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "BAIN036",
+                        "distribution": null,
+                        "dist_range": null,
+                        "student_count": null,
+                        "fail_rate": null,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "361992",
+                        "year": 2015,
+                        "distribution": null,
+                        "dist_range": {
+                            "min": 2,
+                            "max": 3
+                        },
+                        "student_count": 4,
+                        "fail_rate": 44,
+                        "drop_rate": 22,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN037",
+                    "name": "Cálculo en una Variable",
+                    "grade": 1.6,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": {
+                        "course_code": "BAIN037",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 5
+                            },
+                            {
+                                "label": "label2",
+                                "value": 5
+                            },
+                            {
+                                "label": "label3",
+                                "value": 2
+                            },
+                            {
+                                "label": "label4",
+                                "value": 5
+                            },
+                            {
+                                "label": "label5",
+                                "value": 5
+                            },
+                            {
+                                "label": "label6",
+                                "value": 5
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": [
+
+                        ],
+                        "dist_range": {
+                            "min": 2,
+                            "max": 3
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN039",
+                    "name": "Comunicación Idioma Inglés",
+                    "grade": 4.4,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": null,
+                        "dist_range": null,
+                        "student_count": null,
+                        "fail_rate": null,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN039",
+                    "name": "Programación",
+                    "grade": 4.4,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": null,
+                        "dist_range": null,
+                        "student_count": null,
+                        "fail_rate": null,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "BAIN019",
+                    "name": "Física: Mecánica",
+                    "grade": 1.2,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": null,
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": null,
+                        "dist_range": null,
+                        "student_count": null,
+                        "fail_rate": null,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "DYRE060",
+                    "name": "Taller de Ingeniería Electrónica: Tecnología",
+                    "grade": 5,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": null,
+                        "dist_range": null,
+                        "student_count": null,
+                        "fail_rate": null,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    }
+                }
+            ]
+        },
+        {
+            "year": 2016,
+            "semester": "1S",
+            "termAvg": 6,
+            "accAvg": 5.1,
+            "coursesTaken": [
+                {
+                    "code": "BAIN037",
+                    "name": "Cálculo I para Ingeniería",
+                    "grade": 3.5,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "INFO033",
+                    "name": "Programación Orientada a Objetos",
+                    "grade": 5.0,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "BAIN038",
+                    "name": "Física I para Ingeniería",
+                    "grade": 3.1,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": null,
+                    "cohort": null
+                }
+            ]
+        },
+        {
+            "year": 2016,
+            "semester": "2S",
+            "termAvg": 3,
+            "accAvg": 2,
+            "coursesTaken": [
+                {
+                    "code": "INFO053",
+                    "name": "Circuitos Eléctricos en Corriente Continua",
+                    "grade": 2.1,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "ADMI100",
+                    "name": "Taller de Ingeniería Electrónica: Eficiencia Energética",
+                    "grade": 5.1,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "BAIN037",
+                    "name": "Cálculo en una Variable",
+                    "grade": 3.7,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": {
+                        "course_code": "BAIN037",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 1
+                            },
+                            {
+                                "label": "label2",
+                                "value": 2
+                            },
+                            {
+                                "label": "label3",
+                                "value": 2
+                            },
+                            {
+                                "label": "label4",
+                                "value": 2
+                            },
+                            {
+                                "label": "label5",
+                                "value": 2
+                            },
+                            {
+                                "label": "label6",
+                                "value": 2
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": [
+                          {
+                              "label": "label1",
+                              "value": 2
+                          },
+                          {
+                              "label": "label2",
+                              "value": 3
+                          },
+                          {
+                              "label": "label3",
+                              "value": 3
+                          },
+                          {
+                              "label": "label3",
+                              "value": 3
+                          },
+                          {
+                              "label": "label3",
+                              "value": 7
+                          }
+                        ],
+                        "dist_range": {
+                            "min": 2,
+                            "max": 3
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "XXXX",
+                    "name": "Física: Ondas y Electromagnetismo",
+                    "grade": 5.2,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "XXXX",
+                    "name": "Optativo de Formación General II",
+                    "grade": 3.8,
+                    "registration": null,
+                    "state": "reprobed",
+                    "group": null,
+                    "cohort": null
+                }
+            ]
+        },
+        {
+            "year": 2017,
+            "semester": "1S",
+            "termAvg": 5,
+            "accAvg": 7,
+            "coursesTaken": [
+                {
+                    "code": "BAIN037",
+                    "name": "Cálculo en una Variable",
+                    "grade": 6.5,
+                    "registration": null,
+                    "state": "passed",
+                    "group": {
+                        "course_code": "BAIN037",
+                        "distribution": [
+                            {
+                                "label": "label1",
+                                "value": 7
+                            },
+                            {
+                                "label": "label2",
+                                "value": 3
+                            },
+                            {
+                                "label": "label3",
+                                "value": 7
+                            },
+                            {
+                                "label": "label4",
+                                "value": 7
+                            },
+                            {
+                                "label": "label5",
+                                "value": 3
+                            },
+                            {
+                                "label": "label6",
+                                "value": 3
+                            }
+                        ],
+                        "dist_range": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "student_count": 2,
+                        "fail_rate": 23,
+                        "drop_rate": null,
+                        "count_by_delay": null
+                    },
+                    "cohort": {
+                        "course_id": "361995",
+                        "year": 2015,
+                        "distribution": [
+                          {
+                              "label": "label1",
+                              "value": 7
+                          },
+                          {
+                              "label": "label2",
+                              "value": 5
+                          },
+                          {
+                              "label": "label3",
+                              "value": 20
+                          },
+                          {
+                              "label": "label3",
+                              "value": 20
+                          },
+                          {
+                              "label": "label3",
+                              "value": 5
+                          },
+                          {
+                              "label": "label3",
+                              "value": 6
+                          }
+                        ],
+                        "dist_range": {
+                            "min": 2,
+                            "max": 3
+                        },
+                        "student_count": 3,
+                        "fail_rate": 18,
+                        "drop_rate": 20,
+                        "count_by_delay": null
+                    }
+                },
+                {
+                    "code": "INFO053",
+                    "name": "Circuitos Eléctricos en Corriente Continua",
+                    "grade": 5.1,
+                    "registration": null,
+                    "state": "passed",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "INFO053",
+                    "name": "Cálculo en Varias Variables",
+                    "grade": 1.65,
+                    "registration": null,
+                    "state": "anuled",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "CIVG1016",
+                    "name": "TRATAMIENTO Y DISTRIBUCIÓN DE AGUA POTABLE",
+                    "grade": 7.76,
+                    "registration": null,
+                    "state": "AP",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "ADMG2001",
+                    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+                    "grade": 7.97,
+                    "registration": null,
+                    "state": "AP",
+                    "group": null,
+                    "cohort": null
+                },
+                {
+                    "code": "CIVG1007",
+                    "name": "DISEÑO DE PAVIMENTOS",
+                    "grade": 8.2,
+                    "registration": null,
+                    "state": "AP",
+                    "group": null,
+                    "cohort": null
+                }
+            ]
+        }
+    ]
+}

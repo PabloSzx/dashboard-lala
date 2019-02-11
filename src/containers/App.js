@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
-import { HelloWorld } from "../components";
+import { getCurrentUser } from "../actions";
+import { App } from "../components";
 
-class App extends Component {
+class Router extends Component {
+  componentDidMount() {
+    this.props.getCurrentUser();
+  }
+
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={HelloWorld} />
+        <Route exact path="/" component={App} />
         <Redirect from="/*" to="/" />
       </Switch>
     );
@@ -16,6 +21,6 @@ class App extends Component {
 
 const mapStateToProps = state => ({});
 
-const mapDispatchToProps = {};
+const mapDispatchToProps = { getCurrentUser };
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Router));

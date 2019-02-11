@@ -1,15 +1,13 @@
 import axios from "axios";
 import React, { Component } from "react";
-import { render } from "react-dom";
-import D3DashboardComponent from "./components/D3DashboardReact.jsx";
-
-import D3Component from "./components/D3TimeLineReact.jsx";
-
-import Nav from "./components/NavComponent.jsx";
-import Toast from "./components/ToastComponent.jsx";
+import { connect } from "react-redux";
+import {
+  d3Timeline as D3Component,
+  d3Dashboard as D3DashboardComponent,
+} from "./d3";
+import { Nav, Toast } from "./";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
 axios.defaults.headers.common = { "X-Requested-With": "XMLHttpRequest" };
 
 class App extends Component {
@@ -52,7 +50,7 @@ class App extends Component {
           }*/
 
         component
-          .getStudentacademics(studentId, component.props.programaId)
+          .getStudentacademics(studentId, component.props.auth.programaId)
           .then(response => {
             let studentAcademic = response.data;
             let year = studentAcademic.planYear;
@@ -67,7 +65,7 @@ class App extends Component {
               PSP: PSP,
               PGA: PGA,
             });
-            return component.getProgram(component.props.programaId, year);
+            return component.getProgram(component.props.auth.programaId, year);
           })
           .then(response => {
             let programStructure = response.data;
@@ -135,9 +133,4 @@ class App extends Component {
   }
 }
 
-App.defaultProps = {
-  programa: "nombre",
-  programaId: "id",
-};
-
-render(<App />, document.getElementById("APP"));
+export default connect(({ auth }) => ({ auth }), {})(App);
