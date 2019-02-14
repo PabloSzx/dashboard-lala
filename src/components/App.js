@@ -97,7 +97,7 @@ class App extends Component {
       process.env.NODE_ENV === "production"
         ? `http://${
             window.location.hostname
-          }:4000/programs/${programId}?year=${year}`
+          }:8000/programs/${programId}?year=${year}`
         : `/programs/${programId}?year=${year}`;
     return axios.get(URL);
   }
@@ -107,7 +107,7 @@ class App extends Component {
       process.env.NODE_ENV === "production"
         ? `http://${
             window.location.hostname
-          }:4000/students/${studentId}?program=${programId}`
+          }:8000/students/${studentId}?program=${programId}`
         : `/students/${studentId}?program=${programId}`;
     return axios.get(URL);
   }
