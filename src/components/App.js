@@ -93,12 +93,22 @@ class App extends Component {
   }
 
   getProgram(programId, year) {
-    let URL = `/programs/${programId}?year=${year}`;
+    let URL =
+      process.env.NODE_ENV === "production"
+        ? `http://${
+            window.location.hostname
+          }:4000/programs/${programId}?year=${year}`
+        : `/programs/${programId}?year=${year}`;
     return axios.get(URL);
   }
 
   getStudentacademics(studentId, programId) {
-    let URL = `/students/${studentId}?program=${programId}`;
+    let URL =
+      process.env.NODE_ENV === "production"
+        ? `http://${
+            window.location.hostname
+          }:4000/students/${studentId}?program=${programId}`
+        : `/students/${studentId}?program=${programId}`;
     return axios.get(URL);
   }
 
@@ -116,8 +126,7 @@ class App extends Component {
           programa={this.props.programa}
           lastDate={this.state.lastDate}
         />
-        {this.state.programStructure &&
-        this.state.studentAcademic && (
+        {this.state.programStructure && this.state.studentAcademic && (
           <div>
             <D3Component PGA={this.state.PGA} PSP={this.state.PSP} />
             <D3DashboardComponent
@@ -133,4 +142,7 @@ class App extends Component {
   }
 }
 
-export default connect(({ auth }) => ({ auth }), {})(App);
+export default connect(
+  ({ auth }) => ({ auth }),
+  {}
+)(App);
