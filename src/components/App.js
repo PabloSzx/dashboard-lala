@@ -50,7 +50,7 @@ class App extends Component {
           }*/
 
         component
-          .getStudentacademics(studentId, component.props.auth.programaId)
+          .getStudentacademics(studentId, component.props.auth.programs[0])
           .then(response => {
             let studentAcademic = response.data;
             let year = studentAcademic.planYear;
@@ -65,7 +65,7 @@ class App extends Component {
               PSP: PSP,
               PGA: PGA,
             });
-            return component.getProgram(component.props.auth.programaId, year);
+            return component.getProgram(component.props.auth.programs[0], year);
           })
           .then(response => {
             let programStructure = response.data;
@@ -123,7 +123,7 @@ class App extends Component {
       <div>
         <Nav
           searchFunction={this.searchStudent}
-          programa={this.props.programa}
+          programa={this.props.auth.programs[0]}
           lastDate={this.state.lastDate}
         />
         {this.state.programStructure && this.state.studentAcademic && (
