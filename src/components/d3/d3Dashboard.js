@@ -507,7 +507,7 @@ function showRequisites(course, boolean) {
               ? d3.select(this).attr("x")
               : d3.select(this).attr("cx");
             //console.log(x);
-            return `translate(${config.boxWidth * 1},${0})`;
+            return `translate(${config.boxWidth * 1},${-config.boxWidth / 10})`;
           }
         });
       courseSVG
@@ -553,10 +553,9 @@ function showRequisites(course, boolean) {
   }
 }
 
-function moveSubjectsOnY(node, boolean) {
+function moveSubjectsOnY(node, boolean, value) {
   let actualY = parseInt(node.attr("y"));
-  let expandibleValue =
-    config.boxHeight * config.expandibleFactorY - config.boxHeight;
+  let expandibleValue = config.boxHeight * value - config.boxHeight;
   d3
     .select(node.node().parentNode)
     .selectAll(".subject")
@@ -645,7 +644,12 @@ function showHistogram(node, show) {
   let actualY = parseInt(node.attr("y"));
   let actualX = parseInt(node.attr("x"));
   let activeTerm = node.attr("term");
-  moveSubjectsOnY(node, show);
+  // If there is not data in the element, is a subject the student has not taken
+  let expandibleFactor = !node.data()[0]
+    ? parseInt(config.expandibleFactorY / 1.5)
+    : config.expandibleFactorY;
+
+  moveSubjectsOnY(node, show, expandibleFactor);
   moveTermsOnX(node, show);
 
   if (show) {
@@ -657,7 +661,7 @@ function showHistogram(node, show) {
       .duration(config.transitionTiming)
       .attr(
         "transform",
-        `scale(${config.expandibleFactorX},${config.expandibleFactorY})`
+        `scale(${config.expandibleFactorX},${expandibleFactor})`
       )
       .attr("stroke-width", config.strokeWidth / 2);
     //.attr("fill",config.backgroundColor);
@@ -667,7 +671,7 @@ function showHistogram(node, show) {
       .duration(config.transitionTiming)
       .attr(
         "transform",
-        `scale(${config.expandibleFactorX + 0.2},${config.expandibleFactorY})`
+        `scale(${config.expandibleFactorX + 0.2},${expandibleFactor})`
       );
 
     node
@@ -906,8 +910,25 @@ function addSubject(node, x, y, width, height, course) {
     .classed("unselectable", true)
     .text("Req");
 
+  let distributionGroup =
+    course.historicGroup == null || course.historicGroup.distribution == null
+      ? []
+      : course.historicGroup.distribution.map(element => {
+          return element.value;
+        });
+
+  addHistogram(
+    g,
+    config.boxHeight * 0.9,
+    "histogramGroup",
+    `programHistory`,
+    distributionGroup,
+    0,
+    "Calificaciones históricas"
+  );
+
   function onclick(nodeCourse, course) {
-    if (!nodeCourse.data()[0]) return;
+    //if (!nodeCourse.data()[0]) return;
 
     //Si hago click sobre una materia perteneciente a un termino especifico
 
@@ -959,16 +980,7 @@ function addSubject(node, x, y, width, height, course) {
   }
 }
 
-function addHistogram(
-  node,
-  y,
-  className,
-  term,
-  distribution,
-  grade,
-  state,
-  title
-) {
+function addHistogram(node, y, className, term, distribution, grade, title) {
   histogramScaleY.domain([1, d3.max(distribution)]);
   yAxis = d3
     .axisLeft()
@@ -1111,6 +1123,7 @@ function addHistogram(
 function addStudentInfoToSubject(course, termId, semester, year) {
   let courseSVG = d3.select(`#${course.code.replace(/\s|:/g, "")}`);
   if (courseSVG.empty()) return;
+  courseSVG.select(".programHistory").remove();
   let grade = course.grade.toFixed(1); // Rounded to one decimal
 
   //Binding data
@@ -1143,9 +1156,9 @@ function addStudentInfoToSubject(course, termId, semester, year) {
   // Add cohort
 
   let distributionCohort =
-    course.cohortGroup == null || course.cohortGroup.distribution == null
+    course.classGroup == null || course.classGroup.distribution == null
       ? []
-      : course.cohortGroup.distribution.map(element => {
+      : course.classGroup.distribution.map(element => {
           return element.value;
         });
   addHistogram(
@@ -1155,7 +1168,6 @@ function addStudentInfoToSubject(course, termId, semester, year) {
     `Semester${termId}`,
     distributionCohort,
     grade,
-    course.state,
     `Calificaciones ${semester} ${year}`
   );
 
@@ -1173,7 +1185,6 @@ function addStudentInfoToSubject(course, termId, semester, year) {
     `Semester${termId}`,
     distributionGroup,
     grade,
-    course.state,
     "Calificaciones históricas"
   );
 }

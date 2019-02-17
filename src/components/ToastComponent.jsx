@@ -22,9 +22,9 @@ class ToastComponent extends Component {
 
   renderIcon() {
     if (this.state.type == "Error") {
-      return <i class="material-icons text-danger mr-3">info</i>;
+      return <i className="material-icons text-danger mr-3">info</i>;
     } else {
-      return <i class="material-icons text-success mr-3">check</i>;
+      return <i className="material-icons text-success mr-3">check</i>;
     }
   }
   render() {
@@ -33,15 +33,15 @@ class ToastComponent extends Component {
         <div aria-live="polite" aria-atomic="true" className="">
           <div
             id="reactToast"
-            class={`toast toastStyle ${this.state.type == "Error"
+            className={`toast toastStyle ${this.state.type == "Error"
               ? "toastError"
               : "toastSuccess"}`}
             data-delay={this.props.delay}
           >
-            <div class="toast-header">
+            <div className="toast-header">
               {this.renderIcon()}
               <strong
-                class={`mr-auto ${this.state.type == "Error"
+                className={`mr-auto ${this.state.type == "Error"
                   ? "text-danger"
                   : "text-success"}`}
               >
@@ -50,7 +50,7 @@ class ToastComponent extends Component {
               <small />
               <button
                 type="button"
-                class="ml-2 mb-1 close"
+                className="ml-2 mb-1 close"
                 data-dismiss="toast"
                 aria-label="Close"
               >
@@ -58,7 +58,7 @@ class ToastComponent extends Component {
               </button>
             </div>
             <div
-              class={`toast-body ${this.state.type == "Error"
+              className={`toast-body ${this.state.type == "Error"
                 ? "text-danger"
                 : "text-success"}`}
             >
