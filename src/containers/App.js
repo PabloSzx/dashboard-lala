@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Route, Switch, withRouter, Redirect } from "react-router-dom";
+import { Route, Switch, withRouter } from "react-router-dom";
 import { getCurrentUser } from "../actions";
 import { App } from "../components";
 import { Security, SecureRoute, ImplicitCallback } from "@okta/okta-react";
@@ -22,10 +22,9 @@ class Router extends Component {
         redirect_uri={window.location.origin + "/implicit/callback"}
       >
         <Switch>
-          <Route exact path="/" component={App} />
+          <Route exact path="/dashboard" component={App} />
           <SecureRoute path="/protected" component={Protected} />
           <Route path="/implicit/callback" component={ImplicitCallback} />
-          <Redirect from="/*" to="/" />
         </Switch>
       </Security>
     );

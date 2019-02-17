@@ -85,7 +85,7 @@ class App extends Component {
           }*/
 
         component
-          .getStudentacademics(studentId, component.props.authUser.programaId)
+          .getStudentacademics(studentId, component.props.auth.programs[0])
           .then(response => {
             let studentAcademic = response.data;
             let year = studentAcademic.planYear;
@@ -100,10 +100,7 @@ class App extends Component {
               PSP: PSP,
               PGA: PGA,
             });
-            return component.getProgram(
-              component.props.authUser.programaId,
-              year
-            );
+            return component.getProgram(component.props.auth.programs[0], year);
           })
           .then(response => {
             let programStructure = response.data;
@@ -131,12 +128,22 @@ class App extends Component {
   }
 
   getProgram(programId, year) {
-    let URL = `/programs/${programId}?year=${year}`;
+    let URL =
+      process.env.NODE_ENV === "production"
+        ? `http://${
+            window.location.hostname
+          }:8000/programs/${programId}?year=${year}`
+        : `/programs/${programId}?year=${year}`;
     return axios.get(URL);
   }
 
   getStudentacademics(studentId, programId) {
-    let URL = `/students/${studentId}?program=${programId}`;
+    let URL =
+      process.env.NODE_ENV === "production"
+        ? `http://${
+            window.location.hostname
+          }:8000/students/${studentId}?program=${programId}`
+        : `/students/${studentId}?program=${programId}`;
     return axios.get(URL);
   }
 
@@ -156,11 +163,10 @@ class App extends Component {
         )}
         <Nav
           searchFunction={this.searchStudent}
-          programa={this.props.programa}
+          programa={this.props.auth.programs[0]}
           lastDate={this.state.lastDate}
         />
-        {this.state.programStructure &&
-        this.state.studentAcademic && (
+        {this.state.programStructure && this.state.studentAcademic && (
           <div>
             <D3Component PGA={this.state.PGA} PSP={this.state.PSP} />
             <D3DashboardComponent
