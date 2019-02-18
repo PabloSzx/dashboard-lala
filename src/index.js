@@ -34,5 +34,5 @@ if (module.hot) {
 // Learn more about service workers: http://bit.ly/CRA-PWA
 
 process.env.NODE_ENV === "production"
-  ? serviceWorker.register()
+  ? serviceWorker.unregister()
   : serviceWorker.unregister();
