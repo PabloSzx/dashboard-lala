@@ -95,7 +95,7 @@ class App extends Component {
   getProgram(programId, year) {
     let URL =
       process.env.NODE_ENV === "production"
-        ? `http://${
+        ? `https://${
             window.location.hostname
           }:8000/programs/${programId}?year=${year}`
         : `/programs/${programId}?year=${year}`;
@@ -105,7 +105,7 @@ class App extends Component {
   getStudentacademics(studentId, programId) {
     let URL =
       process.env.NODE_ENV === "production"
-        ? `http://${
+        ? `https://${
             window.location.hostname
           }:8000/students/${studentId}?program=${programId}`
         : `/students/${studentId}?program=${programId}`;
